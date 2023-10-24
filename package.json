@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon ./src/server.ts",
     "start": "ts-node ./src/server.ts",
-    "format": "prettier . --ignore-path .gitignore --write",
+    "format": "prettier . --ext .ts --write",
     "lint": "eslint . --ext .ts --fix",
     "fix-style": "npm run format & npm run lint",
     "prepare": "husky install"
