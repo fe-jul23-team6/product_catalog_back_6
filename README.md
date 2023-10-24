@@ -1,2 +1,2 @@
 # product_catalog_back_6
-NiceConstBro Backend
+NiceConstBro BACKEND
