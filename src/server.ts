@@ -1,10 +1,8 @@
 import express from 'express';
 // import cors from 'cors';
-// import dotenv from 'dotenv';
 
-// dotenv.config();
 
-const PORT = 5000;
+const PORT = 5050;
 const app = express();
 
 // const CLIENT_ORIGIN = process.env.CLIENT_URL;
@@ -12,7 +10,6 @@ const app = express();
 // app.use(cors({
 //   origin: CLIENT_ORIGIN,
 // }));
-
 app.get('/', (req, res) => {
   res.end('Hello world!');
 });
