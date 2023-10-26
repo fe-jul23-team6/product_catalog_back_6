@@ -1,19 +1,15 @@
 import express from 'express';
 import cors from 'cors';
 import { productsRouter } from './routes/products.route';
+import { connect } from './connectDB';
 
 
 const PORT = 5050;
 const app = express();
 
-// const CLIENT_ORIGIN = process.env.CLIENT_URL;
-
-// app.use(cors({
-//   origin: CLIENT_ORIGIN,
-// }));
+connect();
 
 app.use(cors());
-
 
 app.use('/products', express.json(), productsRouter);
 
