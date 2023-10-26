@@ -1,5 +1,6 @@
 import express from 'express';
-// import cors from 'cors';
+import cors from 'cors';
+import { productsRouter } from './routes/products.route';
 
 
 const PORT = 5050;
@@ -10,6 +11,13 @@ const app = express();
 // app.use(cors({
 //   origin: CLIENT_ORIGIN,
 // }));
+
+app.use(cors());
+
+
+app.use('/products', express.json(), productsRouter);
+
+
 app.get('/', (req, res) => {
   res.end('Hello world!');
 });
