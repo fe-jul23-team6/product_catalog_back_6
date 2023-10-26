@@ -1,43 +1,44 @@
-import { Table, Column, Model, DataType } from 'sequelize-typescript';
+import { Table, Column, Model} from 'sequelize-typescript';
 
 @Table({
   tableName: 'phones',
   modelName: 'Phone',
+  timestamps: false,
 })
 export class Phone extends Model {
-  @Column(DataType.TEXT)
+  @Column
 		category: string;
 
-  @Column(DataType.TEXT)
+  @Column
 		phoneId: string;
 
-	@Column(DataType.TEXT)
+	@Column
 		itemId: string;
 
-	@Column(DataType.TEXT)
+	@Column
 		name: string;
 
-	@Column(DataType.FLOAT)
+	@Column
 		fullPrice: number;
 
-	@Column(DataType.FLOAT)
+	@Column
 		price: number;
 
-	@Column(DataType.TEXT)
+	@Column
 		screen: string;
 
-	@Column(DataType.TEXT)
+	@Column
 		capacity: string;
 
-	@Column(DataType.TEXT)
+	@Column
 		color: string;
 
-	@Column(DataType.TEXT)
+	@Column
 		ram: string;
 
-	@Column(DataType.INTEGER)
+	@Column
 		year: number;
 
-	@Column(DataType.TEXT)
+	@Column
 		image: string;
 }
