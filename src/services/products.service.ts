@@ -6,6 +6,13 @@ const getAll = async() => {
   return products;
 };
 
+const getById = async(id: string) => {
+  const product = await Phone.findByPk(id);
+
+  return product;
+}
+
 export const ProductsService = {
   getAll,
+  getById,
 };
