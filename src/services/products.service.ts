@@ -28,8 +28,17 @@ const getById = async(id: string) => {
   return product;
 };
 
+const getByIds = (ids: number[]) => {
+  return Phone.findAll({
+    where: {
+      id: ids,
+    }
+  })
+};
+
 export const ProductsService = {
   getAll,
   getById,
+  getByIds,
   getAllByQuery,
 };
