@@ -6,6 +6,7 @@ const getAll: ControllerAction = async(req, res) => {
   const {
     page,
     limit,
+    ids,
   } = req.query;
 
   if (page && limit) {
@@ -15,6 +16,21 @@ const getAll: ControllerAction = async(req, res) => {
     );
 
     res.send(preparedProducts);
+
+    return;
+  }
+
+  if (ids) {
+    if (ids.toString().length === 0 && ids === undefined) {
+      res.send([]);
+
+      return;
+    }
+
+    const preparedIds = ids.toString().split(',').map(id => Number(id));
+    const products = await productService.getByIds(preparedIds);
+
+    res.send(products);
 
     return;
   }
