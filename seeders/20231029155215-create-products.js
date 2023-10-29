@@ -1,13 +1,13 @@
 'use strict';
-const phones = require("../public/api/phones.json");
+const phones = require("../public/api/phones2.json");
 
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up (queryInterface, Sequelize) {
-    await queryInterface.bulkInsert('phones', phones);
+    await queryInterface.bulkInsert('products', phones);
   },
 
   async down (queryInterface, Sequelize) {
-    await queryInterface.bulkDelete('phones', null, {});
+    await queryInterface.bulkDelete('products', null, {});
   }
 };
