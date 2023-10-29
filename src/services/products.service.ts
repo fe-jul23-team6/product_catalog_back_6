@@ -1,8 +1,8 @@
-import { Phone } from "../models/phoneModel";
+import { Product } from "../models/productModel";
 import { PaginationModel } from "../types/pagination";
 
 const getAll = async() => {
-  const products = await Phone.findAll();
+  const products = await Product.findAll();
 
   return products;
 };
@@ -17,19 +17,19 @@ const getAllByQuery = async(
     limit,
   }
 
-  const products = await Phone.findAndCountAll(properties);
+  const products = await Product.findAndCountAll(properties);
 
   return products;
 };
 
 const getById = async(id: string) => {
-  const product = await Phone.findByPk(id);
+  const product = await Product.findByPk(id);
 
   return product;
 };
 
 const getByIds = (ids: number[]) => {
-  return Phone.findAll({
+  return Product.findAll({
     where: {
       id: ids,
     }
