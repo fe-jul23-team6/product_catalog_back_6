@@ -2,10 +2,10 @@ import { Table, Column, Model} from 'sequelize-typescript';
 
 @Table({
   tableName: 'products',
-  modelName: 'Phone',
+  modelName: 'Product',
   timestamps: false,
 })
-export class Phone extends Model {
+export class Product extends Model {
   @Column
 		category: string;
 
