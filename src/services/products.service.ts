@@ -1,23 +1,24 @@
+import { FindOptions } from "sequelize";
 import { Product } from "../models/productModel";
-import { PaginationModel } from "../types/pagination";
+import { QueryModel } from "../types/queryModel";
 
-const getAll = async() => {
-  const products = await Product.findAll();
+const getAllByQuery = async ({ category, limit, page }: QueryModel) => {
+  const properties: FindOptions = {};
 
-  return products;
-};
+  if (limit && page) {
+    const offset = (Number(page) - 1) * Number(limit);
 
-const getAllByQuery = async(
-  page: number, 
-  limit: number,
-) => {
-  const offset = (page - 1) * limit;
-  const properties: PaginationModel = {
-    offset,
-    limit,
+    properties.offset = offset;
+    properties.limit = Number(limit);
   }
 
-  const products = await Product.findAndCountAll(properties);
+  if (category) {
+    properties.where = {
+      category: category,
+    };
+  }
+
+  const products = await Product.findAll(properties);
 
   return products;
 };
@@ -37,7 +38,6 @@ const getByIds = (ids: number[]) => {
 };
 
 export const ProductsService = {
-  getAll,
   getById,
   getByIds,
   getAllByQuery,
