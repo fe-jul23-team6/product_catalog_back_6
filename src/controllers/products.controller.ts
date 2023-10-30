@@ -36,7 +36,14 @@ const getOneById: ControllerAction = async (req, res) => {
   res.send(product);
 }
 
+const getDiscount: ControllerAction = async (req, res) => {
+  const products = await ProductsService.getDiscount();
+
+  res.send(products);
+};
+
 export const ProductsController = {
   getAll,
   getOneById,
+  getDiscount,
 }
