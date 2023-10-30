@@ -1,11 +1,12 @@
 import { FindOptions, Order } from "sequelize";
 import { Product } from "../models/productModel";
 import { QueryModel } from "../types/queryModel";
+import { sequelize } from "../connectDB";
 
-const getAllByQuery = async ({ 
+const getAllByQuery = async ({
   category,
   limit,
-  page, 
+  page,
   sortBy = 'id',
   orderDir = 'ASC',
 }: QueryModel) => {
@@ -35,7 +36,7 @@ const getAllByQuery = async ({
   return products;
 };
 
-const getById = async(id: string) => {
+const getById = async (id: string) => {
   const product = await Product.findByPk(id);
 
   return product;
@@ -49,8 +50,19 @@ const getByIds = (ids: number[]) => {
   })
 };
 
+const getDiscount = async() => {
+  const products = await Product.findAll({
+    order: [[sequelize.literal('"fullPrice" - "price"'), 'DESC']],
+    limit: 16,
+  });
+
+  return products;
+};
+
+
 export const ProductsService = {
   getById,
   getByIds,
   getAllByQuery,
+  getDiscount,
 };
