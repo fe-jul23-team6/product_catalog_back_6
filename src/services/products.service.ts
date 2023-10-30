@@ -59,10 +59,20 @@ const getDiscount = async() => {
   return products;
 };
 
+const getNewModels = async() => {
+  const products = await Product.findAll({
+    order: [['year', 'DESC']],
+    limit: 16,
+  });
+
+  return products;
+}
+
 
 export const ProductsService = {
   getById,
   getByIds,
   getAllByQuery,
   getDiscount,
+  getNewModels,
 };

@@ -42,8 +42,15 @@ const getDiscount: ControllerAction = async (req, res) => {
   res.send(products);
 };
 
+const getNewModels: ControllerAction = async(req, res) => {
+  const products = await ProductsService.getNewModels();
+
+  res.send(products);
+};
+
 export const ProductsController = {
   getAll,
   getOneById,
   getDiscount,
+  getNewModels,
 }
