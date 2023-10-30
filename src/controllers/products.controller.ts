@@ -1,42 +1,30 @@
 import { ProductsService } from "../services/products.service";
 import { ControllerAction } from "../types/controllerAction";
 import codeStatus from "../constants/codeResponses";
+import { QueryModel } from "../types/queryModel";
 
-const getAll: ControllerAction = async(req, res) => {
-  const {
-    page,
-    limit,
-    ids,
-  } = req.query;
+const getAll: ControllerAction = async (req, res) => {
+  const query: QueryModel = req.query;
+  const ids = req.query.ids;
 
-  if (page && limit) {
-    const preparedProducts = await ProductsService.getAllByQuery(
-      Number(page),
-      Number(limit),
-    );
-
-    res.send(preparedProducts);
-
-    return;
-  }
+  const products = await ProductsService.getAllByQuery(query);
 
   if (ids) {
     const preparedIds = ids.toString().split(',').map(id => Number(id));
-    
+
     if (preparedIds.length === 0) {
       res.send([]);
-  } else {
-    const products = await ProductsService.getByIds(preparedIds);
-    res.send(products);
+    } else {
+      const products = await ProductsService.getByIds(preparedIds);
+      res.send(products);
+    }
+    return;
   }
-  return;
-}
 
-  const products = await ProductsService.getAll();
   res.send(products);
 };
 
-const getOneById: ControllerAction = async(req, res) => {
+const getOneById: ControllerAction = async (req, res) => {
   const product = await ProductsService.getById(req.params.id);
 
   if (!product) {
