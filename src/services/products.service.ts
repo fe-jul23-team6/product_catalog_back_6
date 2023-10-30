@@ -1,9 +1,21 @@
-import { FindOptions } from "sequelize";
+import { FindOptions, Order } from "sequelize";
 import { Product } from "../models/productModel";
 import { QueryModel } from "../types/queryModel";
 
-const getAllByQuery = async ({ category, limit, page }: QueryModel) => {
+const getAllByQuery = async ({ 
+  category,
+  limit,
+  page, 
+  sortBy = 'id',
+  orderDir = 'ASC',
+}: QueryModel) => {
   const properties: FindOptions = {};
+
+  if (sortBy) {
+    const order: Order = [[sortBy, orderDir]];
+
+    properties.order = order;
+  }
 
   if (limit && page) {
     const offset = (Number(page) - 1) * Number(limit);
