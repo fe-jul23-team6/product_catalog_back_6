@@ -1,4 +1,4 @@
-import { FindOptions, Order } from "sequelize";
+import { FindOptions, Op, Order } from "sequelize";
 import { Product } from "../models/productModel";
 import { QueryModel } from "../types/queryModel";
 import { sequelize } from "../connectDB";
@@ -50,7 +50,7 @@ const getByIds = (ids: number[]) => {
   })
 };
 
-const getDiscount = async() => {
+const getDiscount = async () => {
   const products = await Product.findAll({
     order: [[sequelize.literal('"fullPrice" - "price"'), 'DESC']],
     limit: 16,
@@ -59,14 +59,42 @@ const getDiscount = async() => {
   return products;
 };
 
-const getNewModels = async() => {
+const getNewModels = async () => {
   const products = await Product.findAll({
     order: [['year', 'DESC']],
     limit: 16,
   });
 
   return products;
-}
+};
+
+const getRecomendedProducts = async (id: string) => {
+  const partsOfid = id.split('-');
+  const searchQuery = partsOfid[1] + '-' + partsOfid[2];
+
+  const products = await Product.findAll({
+    where: {
+      itemId: {
+        [Op.ne]: id,
+        [Op.like]: '%' + searchQuery + '%',
+      },
+    },
+    limit: 10,
+  });
+
+  if (products.length < 4) {
+    return await Product.findAll({
+      where: {
+        itemId: {
+          [Op.ne]: id,
+        },
+      },
+      limit: 10,
+    });
+  }
+
+  return products;
+};
 
 
 export const ProductsService = {
@@ -75,4 +103,5 @@ export const ProductsService = {
   getAllByQuery,
   getDiscount,
   getNewModels,
+  getRecomendedProducts,
 };

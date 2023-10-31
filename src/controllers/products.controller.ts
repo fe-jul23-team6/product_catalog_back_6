@@ -2,6 +2,7 @@ import { ProductsService } from "../services/products.service";
 import { ControllerAction } from "../types/controllerAction";
 import codeStatus from "../constants/codeResponses";
 import { QueryModel } from "../types/queryModel";
+import { ProductsInfoService } from "../services/productsInfo.service";
 
 const getAll: ControllerAction = async (req, res) => {
   const query: QueryModel = req.query;
@@ -48,9 +49,26 @@ const getNewModels: ControllerAction = async(req, res) => {
   res.send(products);
 };
 
+const getRecomendedProducts: ControllerAction = async(req, res) => {
+  const id = req.params.id;
+
+  const product = await ProductsInfoService.getDetailsInfoById(id);
+
+  if (!product) {
+    res.sendStatus(codeStatus.NOT_FOUND);
+
+    return;
+  }
+
+  const products = await ProductsService.getRecomendedProducts(id);
+
+  res.send(products);
+}
+
 export const ProductsController = {
   getAll,
   getOneById,
   getDiscount,
   getNewModels,
+  getRecomendedProducts,
 }
