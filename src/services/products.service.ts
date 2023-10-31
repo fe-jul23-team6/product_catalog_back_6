@@ -31,7 +31,7 @@ const getAllByQuery = async ({
     };
   }
 
-  const products = await Product.findAll(properties);
+  const products = await Product.findAndCountAll(properties);
 
   return products;
 };
