@@ -1,4 +1,5 @@
-import { Table, Column, Model} from 'sequelize-typescript';
+import { Table, Column, Model, ForeignKey, BelongsTo, AllowNull } from 'sequelize-typescript';
+import { ProductInfo } from './productInfoModel';
 
 @Table({
   tableName: 'products',
@@ -7,38 +8,43 @@ import { Table, Column, Model} from 'sequelize-typescript';
 })
 export class Product extends Model {
   @Column
-		category: string;
+  category: string;
 
   @Column
-		phoneId: string;
+  phoneId: string;
 
-	@Column
-		itemId: string;
+  @BelongsTo(() => ProductInfo)
+  productInfo: ProductInfo
 
-	@Column
-		name: string;
+  @ForeignKey(() => ProductInfo)
+  @AllowNull(false)
+  @Column
+  itemId: string;
 
-	@Column
-		fullPrice: number;
+  @Column
+  name: string;
 
-	@Column
-		price: number;
+  @Column
+  fullPrice: number;
 
-	@Column
-		screen: string;
+  @Column
+  price: number;
 
-	@Column
-		capacity: string;
+  @Column
+  screen: string;
 
-	@Column
-		color: string;
+  @Column
+  capacity: string;
 
-	@Column
-		ram: string;
+  @Column
+  color: string;
 
-	@Column
-		year: number;
+  @Column
+  ram: string;
 
-	@Column
-		image: string;
+  @Column
+  year: number;
+
+  @Column
+  image: string;
 }
