@@ -60,7 +60,8 @@ const getRecomendedProducts: ControllerAction = async(req, res) => {
     return;
   }
 
-  const products = await ProductsService.getRecomendedProducts(id);
+  const products = await ProductsService
+  .getRecomendedProducts(id, product.productInfo.priceDiscount);
 
   res.send(products);
 }
