@@ -68,30 +68,27 @@ const getNewModels = async () => {
   return products;
 };
 
-const getRecomendedProducts = async (id: string) => {
-  const partsOfid = id.split('-');
-  const searchQuery = partsOfid[1] + '-' + partsOfid[2];
+const getRecomendedProducts = async (id: string, price: number) => {
+  const searchQuery = id.split('-');
 
   const products = await Product.findAll({
     where: {
-      itemId: {
-        [Op.ne]: id,
-        [Op.like]: '%' + searchQuery + '%',
-      },
+      [Op.and]: [
+        {
+          itemId: {
+            [Op.ne]: id,
+            [Op.like]: '%' + searchQuery[1] + '%',
+          },
+        },
+        {
+          price: {
+            [Op.between]: [price - 150, price + 150],
+          },
+        },
+      ],
     },
     limit: 10,
   });
-
-  if (products.length < 4) {
-    return await Product.findAll({
-      where: {
-        itemId: {
-          [Op.ne]: id,
-        },
-      },
-      limit: 10,
-    });
-  }
 
   return products;
 };
