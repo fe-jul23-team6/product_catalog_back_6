@@ -1,3 +1,5 @@
+'use strict';
+
 import { ProductsInfoService } from "../services/productsInfo.service";
 import { ControllerAction } from "../types/controllerAction";
 import codeStatus from "../constants/codeResponses";
