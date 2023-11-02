@@ -1,5 +1,6 @@
-import express from "express";
+'use strict';
 
+import express from "express";
 import { ProductsController } from "../controllers/products.controller";
 import { ProductsInfoController } from "../controllers/productsInfo.controller";
 

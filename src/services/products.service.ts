@@ -1,3 +1,5 @@
+'use strict';
+
 import { FindOptions, Op, Order } from "sequelize";
 import { Product } from "../models/productModel";
 import { QueryModel } from "../types/queryModel";

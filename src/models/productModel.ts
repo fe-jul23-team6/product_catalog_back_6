@@ -1,3 +1,5 @@
+'use strict';
+
 import { Table, Column, Model, ForeignKey, BelongsTo, AllowNull } from 'sequelize-typescript';
 import { ProductInfo } from './productInfoModel';
 

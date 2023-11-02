@@ -1,3 +1,5 @@
+'use strict';
+
 import { ProductInfo } from "../models/productInfoModel";
 import { Product } from "../models/productModel";
 
