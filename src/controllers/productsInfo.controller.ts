@@ -18,4 +18,4 @@ const getDetailsInfoById: ControllerAction = async(req, res) => {
 
 export const ProductsInfoController = {
   getDetailsInfoById,
-}
+};
