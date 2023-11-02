@@ -10,5 +10,3 @@ productsRouter.get('/new', ProductsController.getNewModels);
 productsRouter.get('/discount', ProductsController.getDiscount);
 productsRouter.get('/:id', ProductsInfoController.getDetailsInfoById);
 productsRouter.get('/:id/recommended', ProductsController.getRecomendedProducts);
-
-

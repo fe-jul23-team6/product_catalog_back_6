@@ -64,7 +64,7 @@ const getRecomendedProducts: ControllerAction = async(req, res) => {
   .getRecomendedProducts(id, product.productInfo.priceDiscount);
 
   res.send(products);
-}
+};
 
 export const ProductsController = {
   getAll,
@@ -72,4 +72,4 @@ export const ProductsController = {
   getDiscount,
   getNewModels,
   getRecomendedProducts,
-}
+};
