@@ -1,6 +1,6 @@
 ## Products catalog backend
 
-**Demo link**: [Link](https://product-catalog-back-6.onrender.com/)
+**Demo link** [here](https://product-catalog-back-6.onrender.com/)
 
 ### Description
 To get:
@@ -10,8 +10,8 @@ To get:
 2)Products by specific category(product categories can be as follows: `phones`, `tablets`, `accessories`): 
 `/products?category=phones` 
 
-2)Detailed phone info you should use `/phones/itemId` (itemId is string, exapmle - 'apple-iphone-11-64gb-black'). Example request:
-`/phones/apple-iphone-11-64gb-black`
+2)Detailed phone info you should use `/products/itemId` (itemId is string, exapmle - 'apple-iphone-11-64gb-black'). Example request:
+`/products/apple-iphone-11-64gb-black`
 
 3)Products with pagination and specific category you should use both `page`, `limit` and `category`queries.Example:  
 `/products?category=phones&limit=16&page=1`
@@ -20,21 +20,19 @@ To get:
 For exapmle:
 `/products?category=phones&limit=16&page=1&orderBy=year&orderDir=DESC`
 
-5)Products by their ids (for exapmle to get your cart or favorites) you should use:
-`/products?ids=1,2,3`
+5)Products by their ids (for exapmle to get your cart or favorites) you should use:`/products?ids=1,2,3`
 
-6)16 products with biggest discount you should use:  
-`/products/discount`
+6)16 products with biggest discount you should use:`/products/discount`
 
-7)10 recommended products you should use: 
-`/products/itemId/recommended`
+7)10 recommended products you should use:`/products/itemId/recommended`
 
-8)16 new models of products you should use:  
-`/products/new`
+8)16 new models of products you should use:`/products/new`
 
 ### Installing
 1)Fork and clone this repository.
+
 2)Run `npm install` in your terminal.
+
 3)Run `npm start`
 
 ### Troubleshooting
