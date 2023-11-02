@@ -96,7 +96,6 @@ const getRecomendedProducts = async (id: string, price: number) => {
   return products;
 };
 
-
 export const ProductsService = {
   getById,
   getByIds,
