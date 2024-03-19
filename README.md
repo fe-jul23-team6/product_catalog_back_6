@@ -1,6 +1,6 @@
 ## Products catalog backend
 
-**Demo link** [here](https://product-catalog-back-6.onrender.com/)
+**Demo link** [here](https://product-catalog-back-6-0mss.onrender.com/)
 
 ### Description
 To get:
