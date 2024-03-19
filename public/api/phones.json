@@ -893,7 +893,7 @@
   {
     "id": "apple-iphone-11-pro-256gb-midnightgreen",
     "namespaceId": "apple-iphone-11-pro",
-    "name": "Apple iPhone 11 Pro 256GB Midnight green",
+    "name": "Apple iPhone 11 Pro 256GB Midnight Green",
     "capacityAvailable": ["64GB", "256GB", "512GB"],
     "capacity": "256GB",
     "priceRegular": 1640,
@@ -1074,7 +1074,7 @@
   {
     "id": "apple-iphone-11-pro-512gb-midnightgreen",
     "namespaceId": "apple-iphone-11-pro",
-    "name": "Apple iPhone 11 Pro 512GB Midnight green",
+    "name": "Apple iPhone 11 Pro 512GB Midnight Green",
     "capacityAvailable": ["64GB", "256GB", "512GB"],
     "capacity": "512GB",
     "priceRegular": 1880,
@@ -1255,7 +1255,7 @@
   {
     "id": "apple-iphone-11-pro-64gb-midnightgreen",
     "namespaceId": "apple-iphone-11-pro",
-    "name": "Apple iPhone 11 Pro 64GB Midnight green",
+    "name": "Apple iPhone 11 Pro 64GB Midnight Green",
     "capacityAvailable": ["64GB", "256GB", "512GB"],
     "capacity": "64GB",
     "priceRegular": 1312,
