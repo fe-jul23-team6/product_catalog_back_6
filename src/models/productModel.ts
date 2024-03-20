@@ -12,9 +12,6 @@ export class Product extends Model {
   @Column
   category: string;
 
-  @Column
-  phoneId: string;
-
   @BelongsTo(() => ProductInfo)
   productInfo: ProductInfo
 
