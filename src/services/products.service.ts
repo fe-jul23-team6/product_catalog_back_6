@@ -1,10 +1,10 @@
 'use strict';
 
-import { FindOptions, Op, Order } from "sequelize";
-import { Product } from "../models/productModel";
-import { QueryModel } from "../types/queryModel";
-import { sequelize } from "../connectDB";
-import { DEFAULT_ORDER, DEFAULT_SORT } from "../constants/constants";
+import { FindOptions, Op, Order } from 'sequelize';
+import { Product } from '../models/productModel';
+import { QueryModel } from '../types/queryModel';
+import { sequelize } from '../connectDB';
+import { DEFAULT_ORDER, DEFAULT_SORT } from '../constants/constants';
 
 const getAllByQuery = async ({
   category,
@@ -16,7 +16,10 @@ const getAllByQuery = async ({
   const properties: FindOptions = {};
 
   if (sortBy) {
-    const order: Order = [[sortBy, orderDir], [DEFAULT_SORT, DEFAULT_ORDER]];
+    const order: Order = [
+      [sortBy, orderDir],
+      [DEFAULT_SORT, DEFAULT_ORDER],
+    ];
 
     properties.order = order;
   }
@@ -49,8 +52,8 @@ const getByIds = (ids: number[]) => {
   return Product.findAll({
     where: {
       id: ids,
-    }
-  })
+    },
+  });
 };
 
 const getDiscount = async () => {

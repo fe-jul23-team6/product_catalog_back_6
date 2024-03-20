@@ -1,6 +1,13 @@
 'use strict';
 
-import { Table, Column, Model, ForeignKey, BelongsTo, AllowNull } from 'sequelize-typescript';
+import {
+  Table,
+  Column,
+  Model,
+  ForeignKey,
+  BelongsTo,
+  AllowNull,
+} from 'sequelize-typescript';
 import { ProductInfo } from './productInfoModel';
 
 @Table({
@@ -13,7 +20,7 @@ export class Product extends Model {
   category: string;
 
   @BelongsTo(() => ProductInfo)
-  productInfo: ProductInfo
+  productInfo: ProductInfo;
 
   @ForeignKey(() => ProductInfo)
   @AllowNull(false)
