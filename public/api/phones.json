@@ -5497,32 +5497,37 @@
     ],
     "description": [
       {
-        "title": "And then was a Pro",
+        "title": "The Ultimate Pro Camera System",
         "text": [
-          "A transformative triple-camera system that adds tons of capability without complexity.",
-          "An unprecedented leap in battery life. And a mind-blowing chip that doubles down on machine learning and pushes the boundaries of what a smartphone can do. Welcome to the first iPhone powerful enough to be called Pro."
+          "Introducing the first pro camera system that's also an iPhone — delivering 3x optical zoom, macro photography, Night mode portraits, and a new ProRes format for the highest-quality video ever in a smartphone. Get ready to shoot like a pro."
         ]
       },
       {
-        "title": "Camera",
+        "title": "Cinematic Mode",
         "text": [
-          "Meet the first triple-camera system to combine cutting-edge technology with the legendary simplicity of iPhone. Capture up to four times more scene. Get beautiful images in drastically lower light. Shoot the highest-quality video in a smartphone — then edit with the same tools you love for photos. You’ve never shot with anything like it."
+          "Film like a pro with exclusive access to the depth-of-field effect of Cinema mode, now on both the Wide and Telephoto cameras. Add focus transitions for a creative look, and easily switch between cameras to capture more of the moment."
         ]
       },
       {
-        "title": "Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.",
+        "title": "A15 Bionic",
         "text": [
-          "iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with."
+          "A15 Bionic is the fastest chip ever in a smartphone. It powers incredible experiences in photography, video, gaming, and more — all while delivering great battery life. And it enables the most advanced machine learning capabilities in any smartphone for next-level experiences."
+        ]
+      },
+      {
+        "title": "ProMotion",
+        "text": [
+          "ProMotion technology automatically adjusts the display to the movement on your screen, for more fluid scrolling, greater responsiveness, and smoother motion — and a battery that lasts all day."
         ]
       }
     ],
-    "screen": "6.1' OLED (Super Retina XDR)",
-    "resolution": "2556x1179",
-    "processor": "Apple A16 Bionic",
+    "screen": "6.7' Super Retina XDR display",
+    "resolution": "2778x1284",
+    "processor": "Apple A15 Bionic",
     "ram": "6GB",
-    "camera": "48 Mp + 12 Mp + 12MP + 12Mp",
-    "zoom": "Digital 5x, Optical 2x",
-    "cell": ["GPRS", "EDGE", "WCDMA", "UMTS", "HSPA", "LTE", "5G"]
+    "camera": "12 Mp + 12 Mp + 12 Mp",
+    "zoom": "Optical, 3x; Digital, up to 15x",
+    "cell": ["GSM", "CDMA", "HSPA", "EVDO", "LTE", "5G"]
   },
   {
     "id": "apple-iphone-14-pro-128gb-gold",
@@ -5707,5 +5712,829 @@
     "camera": "48 Mp + 12 Mp + 12MP + 12Mp",
     "zoom": "Digital 5x, Optical 2x",
     "cell": ["GPRS", "EDGE", "WCDMA", "UMTS", "HSPA", "LTE", "5G"]
+  },
+    {
+    "id": "apple-iphone-15-pro-128gb-naturaltitanium",
+    "namespaceId": "apple-iphone-15-pro",
+    "name": "Apple iPhone 15 Pro 128GB Natural Titanium",
+    "capacityAvailable": ["128GB", "256GB", "512GB", "1TB"],
+    "capacity": "128GB",
+    "priceRegular": 1300,
+    "priceDiscount": 1100,
+    "colorsAvailable": ["naturaltitanium", "bluetitanium", "whitetitanium", "blacktitanium"],
+    "color": "naturaltitanium",
+    "images": [
+      "img/phones/apple-iphone-15-pro/naturaltitanium/00.webp",
+      "img/phones/apple-iphone-15-pro/naturaltitanium/01.webp",
+      "img/phones/apple-iphone-15-pro/naturaltitanium/02.webp",
+      "img/phones/apple-iphone-15-pro/naturaltitanium/03.webp",
+      "img/phones/apple-iphone-15-pro/naturaltitanium/04.webp",
+      "img/phones/apple-iphone-15-pro/0Pro.webp"
+    ],
+    "description": [
+      {
+        "title": "Forged in titanium",
+        "text": [
+          "iPhone 15 Pro is the first iPhone to feature an aerospace‑grade titanium design, using the same alloy that spacecraft use for missions to Mars.",
+          "Titanium has one of the best strength‑to‑weight ratios of any metal, making these our lightest Pro models ever. You’ll notice the difference the moment you pick one up."
+        ]
+      },
+      {
+        "title": "A17 Pro chip. A monster win for gaming",
+        "text": [
+          "It’s here. The biggest redesign in the history of Apple GPUs.",
+          "A17 Pro is an entirely new class of iPhone chip that delivers our best graphics performance by far.",
+          "Mobile games will look and feel so immersive, with incredibly detailed environments and more realistic characters. And with industry-leading speed and efficiency, A17 Pro takes fast and runs with it."
+        ]
+      },
+      {
+        "title": "A camera that captures your wildest imagination",
+        "text": [
+          "From dramatic framing flexibility to next-generation portraits, see what you can do with our most powerful iPhone camera system.",
+          "With iPhone 15 Pro, you have multiple focal lengths to work with. It’s like having seven pro lenses in your pocket, everywhere you go.",
+          "The 48MP Main camera is more advanced than ever, capturing super‑high‑resolution photos with a new level of detail and color.",
+          "You’ll see the improvements in your portraits. And now you no longer have to switch to Portrait mode. If your subject is a person, dog, or cat, iPhone automatically captures depth information. So you can choose to instantly see your photo as a portrait, with an artful blur effect. Or later in the Photos app."
+        ]
+      }
+    ],
+    "screen": "6.1' OLED (Super Retina XDR)",
+    "resolution": "2556x1179",
+    "processor": "Apple A17 Pro",
+    "ram": "8GB",
+    "camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto",
+    "zoom": "Digital up to 15x, Optical up to 10x",
+    "cell": ["GSM", "EDGE", "UMTS", "HSPA", "LTE", "5G"]
+  },
+    {
+    "id": "apple-iphone-15-pro-256gb-naturaltitanium",
+    "namespaceId": "apple-iphone-15-pro",
+    "name": "Apple iPhone 15 Pro 256GB Natural Titanium",
+    "capacityAvailable": ["128GB", "256GB", "512GB", "1TB"],
+    "capacity": "256GB",
+    "priceRegular": 1400,
+    "priceDiscount": 1200,
+    "colorsAvailable": ["naturaltitanium", "bluetitanium", "whitetitanium", "blacktitanium"],
+    "color": "naturaltitanium",
+    "images": [
+      "img/phones/apple-iphone-15-pro/naturaltitanium/00.webp",
+      "img/phones/apple-iphone-15-pro/naturaltitanium/01.webp",
+      "img/phones/apple-iphone-15-pro/naturaltitanium/02.webp",
+      "img/phones/apple-iphone-15-pro/naturaltitanium/03.webp",
+      "img/phones/apple-iphone-15-pro/naturaltitanium/04.webp",
+      "img/phones/apple-iphone-15-pro/0Pro.webp"
+    ],
+    "description": [
+      {
+        "title": "Forged in titanium",
+        "text": [
+          "iPhone 15 Pro is the first iPhone to feature an aerospace‑grade titanium design, using the same alloy that spacecraft use for missions to Mars.",
+          "Titanium has one of the best strength‑to‑weight ratios of any metal, making these our lightest Pro models ever. You’ll notice the difference the moment you pick one up."
+        ]
+      },
+      {
+        "title": "A17 Pro chip. A monster win for gaming",
+        "text": [
+          "It’s here. The biggest redesign in the history of Apple GPUs.",
+          "A17 Pro is an entirely new class of iPhone chip that delivers our best graphics performance by far.",
+          "Mobile games will look and feel so immersive, with incredibly detailed environments and more realistic characters. And with industry-leading speed and efficiency, A17 Pro takes fast and runs with it."
+        ]
+      },
+      {
+        "title": "A camera that captures your wildest imagination",
+        "text": [
+          "From dramatic framing flexibility to next-generation portraits, see what you can do with our most powerful iPhone camera system.",
+          "With iPhone 15 Pro, you have multiple focal lengths to work with. It’s like having seven pro lenses in your pocket, everywhere you go.",
+          "The 48MP Main camera is more advanced than ever, capturing super‑high‑resolution photos with a new level of detail and color.",
+          "You’ll see the improvements in your portraits. And now you no longer have to switch to Portrait mode. If your subject is a person, dog, or cat, iPhone automatically captures depth information. So you can choose to instantly see your photo as a portrait, with an artful blur effect. Or later in the Photos app."
+        ]
+      }
+    ],
+    "screen": "6.1' OLED (Super Retina XDR)",
+    "resolution": "2556x1179",
+    "processor": "Apple A17 Pro",
+    "ram": "8GB",
+    "camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto",
+    "zoom": "Digital up to 15x, Optical up to 10x",
+    "cell": ["GSM", "EDGE", "UMTS", "HSPA", "LTE", "5G"]
+  },
+    {
+    "id": "apple-iphone-15-pro-512gb-naturaltitanium",
+    "namespaceId": "apple-iphone-15-pro",
+    "name": "Apple iPhone 15 Pro 512GB Natural Titanium",
+    "capacityAvailable": ["128GB", "256GB", "512GB", "1TB"],
+    "capacity": "512GB",
+    "priceRegular": 1600,
+    "priceDiscount": 1400,
+    "colorsAvailable": ["naturaltitanium", "bluetitanium", "whitetitanium", "blacktitanium"],
+    "color": "naturaltitanium",
+    "images": [
+      "img/phones/apple-iphone-15-pro/naturaltitanium/00.webp",
+      "img/phones/apple-iphone-15-pro/naturaltitanium/01.webp",
+      "img/phones/apple-iphone-15-pro/naturaltitanium/02.webp",
+      "img/phones/apple-iphone-15-pro/naturaltitanium/03.webp",
+      "img/phones/apple-iphone-15-pro/naturaltitanium/04.webp",
+      "img/phones/apple-iphone-15-pro/0Pro.webp"
+    ],
+    "description": [
+      {
+        "title": "Forged in titanium",
+        "text": [
+          "iPhone 15 Pro is the first iPhone to feature an aerospace‑grade titanium design, using the same alloy that spacecraft use for missions to Mars.",
+          "Titanium has one of the best strength‑to‑weight ratios of any metal, making these our lightest Pro models ever. You’ll notice the difference the moment you pick one up."
+        ]
+      },
+      {
+        "title": "A17 Pro chip. A monster win for gaming",
+        "text": [
+          "It’s here. The biggest redesign in the history of Apple GPUs.",
+          "A17 Pro is an entirely new class of iPhone chip that delivers our best graphics performance by far.",
+          "Mobile games will look and feel so immersive, with incredibly detailed environments and more realistic characters. And with industry-leading speed and efficiency, A17 Pro takes fast and runs with it."
+        ]
+      },
+      {
+        "title": "A camera that captures your wildest imagination",
+        "text": [
+          "From dramatic framing flexibility to next-generation portraits, see what you can do with our most powerful iPhone camera system.",
+          "With iPhone 15 Pro, you have multiple focal lengths to work with. It’s like having seven pro lenses in your pocket, everywhere you go.",
+          "The 48MP Main camera is more advanced than ever, capturing super‑high‑resolution photos with a new level of detail and color.",
+          "You’ll see the improvements in your portraits. And now you no longer have to switch to Portrait mode. If your subject is a person, dog, or cat, iPhone automatically captures depth information. So you can choose to instantly see your photo as a portrait, with an artful blur effect. Or later in the Photos app."
+        ]
+      }
+    ],
+    "screen": "6.1' OLED (Super Retina XDR)",
+    "resolution": "2556x1179",
+    "processor": "Apple A17 Pro",
+    "ram": "8GB",
+    "camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto",
+    "zoom": "Digital up to 15x, Optical up to 10x",
+    "cell": ["GSM", "EDGE", "UMTS", "HSPA", "LTE", "5G"]
+  },
+    {
+    "id": "apple-iphone-15-pro-1tb-naturaltitanium",
+    "namespaceId": "apple-iphone-15-pro",
+    "name": "Apple iPhone 15 Pro 1TB Natural Titanium",
+    "capacityAvailable": ["128GB", "256GB", "512GB", "1TB"],
+    "capacity": "1TB",
+    "priceRegular": 1800,
+    "priceDiscount": 1600,
+    "colorsAvailable": ["naturaltitanium", "bluetitanium", "whitetitanium", "blacktitanium"],
+    "color": "naturaltitanium",
+    "images": [
+      "img/phones/apple-iphone-15-pro/naturaltitanium/00.webp",
+      "img/phones/apple-iphone-15-pro/naturaltitanium/01.webp",
+      "img/phones/apple-iphone-15-pro/naturaltitanium/02.webp",
+      "img/phones/apple-iphone-15-pro/naturaltitanium/03.webp",
+      "img/phones/apple-iphone-15-pro/naturaltitanium/04.webp",
+      "img/phones/apple-iphone-15-pro/0Pro.webp"
+    ],
+    "description": [
+      {
+        "title": "Forged in titanium",
+        "text": [
+          "iPhone 15 Pro is the first iPhone to feature an aerospace‑grade titanium design, using the same alloy that spacecraft use for missions to Mars.",
+          "Titanium has one of the best strength‑to‑weight ratios of any metal, making these our lightest Pro models ever. You’ll notice the difference the moment you pick one up."
+        ]
+      },
+      {
+        "title": "A17 Pro chip. A monster win for gaming",
+        "text": [
+          "It’s here. The biggest redesign in the history of Apple GPUs.",
+          "A17 Pro is an entirely new class of iPhone chip that delivers our best graphics performance by far.",
+          "Mobile games will look and feel so immersive, with incredibly detailed environments and more realistic characters. And with industry-leading speed and efficiency, A17 Pro takes fast and runs with it."
+        ]
+      },
+      {
+        "title": "A camera that captures your wildest imagination",
+        "text": [
+          "From dramatic framing flexibility to next-generation portraits, see what you can do with our most powerful iPhone camera system.",
+          "With iPhone 15 Pro, you have multiple focal lengths to work with. It’s like having seven pro lenses in your pocket, everywhere you go.",
+          "The 48MP Main camera is more advanced than ever, capturing super‑high‑resolution photos with a new level of detail and color.",
+          "You’ll see the improvements in your portraits. And now you no longer have to switch to Portrait mode. If your subject is a person, dog, or cat, iPhone automatically captures depth information. So you can choose to instantly see your photo as a portrait, with an artful blur effect. Or later in the Photos app."
+        ]
+      }
+    ],
+    "screen": "6.1' OLED (Super Retina XDR)",
+    "resolution": "2556x1179",
+    "processor": "Apple A17 Pro",
+    "ram": "8GB",
+    "camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto",
+    "zoom": "Digital up to 15x, Optical up to 10x",
+    "cell": ["GSM", "EDGE", "UMTS", "HSPA", "LTE", "5G"]
+  },
+    {
+    "id": "apple-iphone-15-pro-128gb-blacktitanium",
+    "namespaceId": "apple-iphone-15-pro",
+    "name": "Apple iPhone 15 Pro 128GB Black Titanium",
+    "capacityAvailable": ["128GB", "256GB", "512GB", "1TB"],
+    "capacity": "128GB",
+    "priceRegular": 1300,
+    "priceDiscount": 1100,
+    "colorsAvailable": ["naturaltitanium", "bluetitanium", "whitetitanium", "blacktitanium"],
+    "color": "blacktitanium",
+    "images": [
+      "img/phones/apple-iphone-15-pro/blacktitanium/00.webp",
+      "img/phones/apple-iphone-15-pro/blacktitanium/01.webp",
+      "img/phones/apple-iphone-15-pro/blacktitanium/02.webp",
+      "img/phones/apple-iphone-15-pro/blacktitanium/03.webp",
+      "img/phones/apple-iphone-15-pro/blacktitanium/04.webp",
+      "img/phones/apple-iphone-15-pro/0Pro.webp"
+    ],
+    "description": [
+      {
+        "title": "Forged in titanium",
+        "text": [
+          "iPhone 15 Pro is the first iPhone to feature an aerospace‑grade titanium design, using the same alloy that spacecraft use for missions to Mars.",
+          "Titanium has one of the best strength‑to‑weight ratios of any metal, making these our lightest Pro models ever. You’ll notice the difference the moment you pick one up."
+        ]
+      },
+      {
+        "title": "A17 Pro chip. A monster win for gaming",
+        "text": [
+          "It’s here. The biggest redesign in the history of Apple GPUs.",
+          "A17 Pro is an entirely new class of iPhone chip that delivers our best graphics performance by far.",
+          "Mobile games will look and feel so immersive, with incredibly detailed environments and more realistic characters. And with industry-leading speed and efficiency, A17 Pro takes fast and runs with it."
+        ]
+      },
+      {
+        "title": "A camera that captures your wildest imagination",
+        "text": [
+          "From dramatic framing flexibility to next-generation portraits, see what you can do with our most powerful iPhone camera system.",
+          "With iPhone 15 Pro, you have multiple focal lengths to work with. It’s like having seven pro lenses in your pocket, everywhere you go.",
+          "The 48MP Main camera is more advanced than ever, capturing super‑high‑resolution photos with a new level of detail and color.",
+          "You’ll see the improvements in your portraits. And now you no longer have to switch to Portrait mode. If your subject is a person, dog, or cat, iPhone automatically captures depth information. So you can choose to instantly see your photo as a portrait, with an artful blur effect. Or later in the Photos app."
+        ]
+      }
+    ],
+    "screen": "6.1' OLED (Super Retina XDR)",
+    "resolution": "2556x1179",
+    "processor": "Apple A17 Pro",
+    "ram": "8GB",
+    "camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto",
+    "zoom": "Digital up to 15x, Optical up to 10x",
+    "cell": ["GSM", "EDGE", "UMTS", "HSPA", "LTE", "5G"]
+  },
+    {
+    "id": "apple-iphone-15-pro-256gb-blacktitanium",
+    "namespaceId": "apple-iphone-15-pro",
+    "name": "Apple iPhone 15 Pro 256GB Black Titanium",
+    "capacityAvailable": ["128GB", "256GB", "512GB", "1TB"],
+    "capacity": "256GB",
+    "priceRegular": 1400,
+    "priceDiscount": 1200,
+    "colorsAvailable": ["naturaltitanium", "bluetitanium", "whitetitanium", "blacktitanium"],
+    "color": "blacktitanium",
+    "images": [
+      "img/phones/apple-iphone-15-pro/blacktitanium/00.webp",
+      "img/phones/apple-iphone-15-pro/blacktitanium/01.webp",
+      "img/phones/apple-iphone-15-pro/blacktitanium/02.webp",
+      "img/phones/apple-iphone-15-pro/blacktitanium/03.webp",
+      "img/phones/apple-iphone-15-pro/blacktitanium/04.webp",
+      "img/phones/apple-iphone-15-pro/0Pro.webp"
+    ],
+    "description": [
+      {
+        "title": "Forged in titanium",
+        "text": [
+          "iPhone 15 Pro is the first iPhone to feature an aerospace‑grade titanium design, using the same alloy that spacecraft use for missions to Mars.",
+          "Titanium has one of the best strength‑to‑weight ratios of any metal, making these our lightest Pro models ever. You’ll notice the difference the moment you pick one up."
+        ]
+      },
+      {
+        "title": "A17 Pro chip. A monster win for gaming",
+        "text": [
+          "It’s here. The biggest redesign in the history of Apple GPUs.",
+          "A17 Pro is an entirely new class of iPhone chip that delivers our best graphics performance by far.",
+          "Mobile games will look and feel so immersive, with incredibly detailed environments and more realistic characters. And with industry-leading speed and efficiency, A17 Pro takes fast and runs with it."
+        ]
+      },
+      {
+        "title": "A camera that captures your wildest imagination",
+        "text": [
+          "From dramatic framing flexibility to next-generation portraits, see what you can do with our most powerful iPhone camera system.",
+          "With iPhone 15 Pro, you have multiple focal lengths to work with. It’s like having seven pro lenses in your pocket, everywhere you go.",
+          "The 48MP Main camera is more advanced than ever, capturing super‑high‑resolution photos with a new level of detail and color.",
+          "You’ll see the improvements in your portraits. And now you no longer have to switch to Portrait mode. If your subject is a person, dog, or cat, iPhone automatically captures depth information. So you can choose to instantly see your photo as a portrait, with an artful blur effect. Or later in the Photos app."
+        ]
+      }
+    ],
+    "screen": "6.1' OLED (Super Retina XDR)",
+    "resolution": "2556x1179",
+    "processor": "Apple A17 Pro",
+    "ram": "8GB",
+    "camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto",
+    "zoom": "Digital up to 15x, Optical up to 10x",
+    "cell": ["GSM", "EDGE", "UMTS", "HSPA", "LTE", "5G"]
+  },
+    {
+    "id": "apple-iphone-15-pro-512gb-blacktitanium",
+    "namespaceId": "apple-iphone-15-pro",
+    "name": "Apple iPhone 15 Pro 512GB Black Titanium",
+    "capacityAvailable": ["128GB", "256GB", "512GB", "1TB"],
+    "capacity": "512GB",
+    "priceRegular": 1600,
+    "priceDiscount": 1400,
+    "colorsAvailable": ["naturaltitanium", "bluetitanium", "whitetitanium", "blacktitanium"],
+    "color": "blacktitanium",
+    "images": [
+      "img/phones/apple-iphone-15-pro/blacktitanium/00.webp",
+      "img/phones/apple-iphone-15-pro/blacktitanium/01.webp",
+      "img/phones/apple-iphone-15-pro/blacktitanium/02.webp",
+      "img/phones/apple-iphone-15-pro/blacktitanium/03.webp",
+      "img/phones/apple-iphone-15-pro/blacktitanium/04.webp",
+      "img/phones/apple-iphone-15-pro/0Pro.webp"
+    ],
+    "description": [
+      {
+        "title": "Forged in titanium",
+        "text": [
+          "iPhone 15 Pro is the first iPhone to feature an aerospace‑grade titanium design, using the same alloy that spacecraft use for missions to Mars.",
+          "Titanium has one of the best strength‑to‑weight ratios of any metal, making these our lightest Pro models ever. You’ll notice the difference the moment you pick one up."
+        ]
+      },
+      {
+        "title": "A17 Pro chip. A monster win for gaming",
+        "text": [
+          "It’s here. The biggest redesign in the history of Apple GPUs.",
+          "A17 Pro is an entirely new class of iPhone chip that delivers our best graphics performance by far.",
+          "Mobile games will look and feel so immersive, with incredibly detailed environments and more realistic characters. And with industry-leading speed and efficiency, A17 Pro takes fast and runs with it."
+        ]
+      },
+      {
+        "title": "A camera that captures your wildest imagination",
+        "text": [
+          "From dramatic framing flexibility to next-generation portraits, see what you can do with our most powerful iPhone camera system.",
+          "With iPhone 15 Pro, you have multiple focal lengths to work with. It’s like having seven pro lenses in your pocket, everywhere you go.",
+          "The 48MP Main camera is more advanced than ever, capturing super‑high‑resolution photos with a new level of detail and color.",
+          "You’ll see the improvements in your portraits. And now you no longer have to switch to Portrait mode. If your subject is a person, dog, or cat, iPhone automatically captures depth information. So you can choose to instantly see your photo as a portrait, with an artful blur effect. Or later in the Photos app."
+        ]
+      }
+    ],
+    "screen": "6.1' OLED (Super Retina XDR)",
+    "resolution": "2556x1179",
+    "processor": "Apple A17 Pro",
+    "ram": "8GB",
+    "camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto",
+    "zoom": "Digital up to 15x, Optical up to 10x",
+    "cell": ["GSM", "EDGE", "UMTS", "HSPA", "LTE", "5G"]
+  },
+    {
+    "id": "apple-iphone-15-pro-1tb-blacktitanium",
+    "namespaceId": "apple-iphone-15-pro",
+    "name": "Apple iPhone 15 Pro 1TB Black Titanium",
+    "capacityAvailable": ["128GB", "256GB", "512GB", "1TB"],
+    "capacity": "1TB",
+    "priceRegular": 1800,
+    "priceDiscount": 1600,
+    "colorsAvailable": ["naturaltitanium", "bluetitanium", "whitetitanium", "blacktitanium"],
+    "color": "blacktitanium",
+    "images": [
+      "img/phones/apple-iphone-15-pro/blacktitanium/00.webp",
+      "img/phones/apple-iphone-15-pro/blacktitanium/01.webp",
+      "img/phones/apple-iphone-15-pro/blacktitanium/02.webp",
+      "img/phones/apple-iphone-15-pro/blacktitanium/03.webp",
+      "img/phones/apple-iphone-15-pro/blacktitanium/04.webp",
+      "img/phones/apple-iphone-15-pro/0Pro.webp"
+    ],
+    "description": [
+      {
+        "title": "Forged in titanium",
+        "text": [
+          "iPhone 15 Pro is the first iPhone to feature an aerospace‑grade titanium design, using the same alloy that spacecraft use for missions to Mars.",
+          "Titanium has one of the best strength‑to‑weight ratios of any metal, making these our lightest Pro models ever. You’ll notice the difference the moment you pick one up."
+        ]
+      },
+      {
+        "title": "A17 Pro chip. A monster win for gaming",
+        "text": [
+          "It’s here. The biggest redesign in the history of Apple GPUs.",
+          "A17 Pro is an entirely new class of iPhone chip that delivers our best graphics performance by far.",
+          "Mobile games will look and feel so immersive, with incredibly detailed environments and more realistic characters. And with industry-leading speed and efficiency, A17 Pro takes fast and runs with it."
+        ]
+      },
+      {
+        "title": "A camera that captures your wildest imagination",
+        "text": [
+          "From dramatic framing flexibility to next-generation portraits, see what you can do with our most powerful iPhone camera system.",
+          "With iPhone 15 Pro, you have multiple focal lengths to work with. It’s like having seven pro lenses in your pocket, everywhere you go.",
+          "The 48MP Main camera is more advanced than ever, capturing super‑high‑resolution photos with a new level of detail and color.",
+          "You’ll see the improvements in your portraits. And now you no longer have to switch to Portrait mode. If your subject is a person, dog, or cat, iPhone automatically captures depth information. So you can choose to instantly see your photo as a portrait, with an artful blur effect. Or later in the Photos app."
+        ]
+      }
+    ],
+    "screen": "6.1' OLED (Super Retina XDR)",
+    "resolution": "2556x1179",
+    "processor": "Apple A17 Pro",
+    "ram": "8GB",
+    "camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto",
+    "zoom": "Digital up to 15x, Optical up to 10x",
+    "cell": ["GSM", "EDGE", "UMTS", "HSPA", "LTE", "5G"]
+  },
+    {
+    "id": "apple-iphone-15-pro-128gb-bluetitanium",
+    "namespaceId": "apple-iphone-15-pro",
+    "name": "Apple iPhone 15 Pro 128GB Natural Titanium",
+    "capacityAvailable": ["128GB", "256GB", "512GB", "1TB"],
+    "capacity": "128GB",
+    "priceRegular": 1300,
+    "priceDiscount": 1100,
+    "colorsAvailable": ["naturaltitanium", "bluetitanium", "whitetitanium", "blacktitanium"],
+    "color": "bluetitanium",
+    "images": [
+      "img/phones/apple-iphone-15-pro/bluetitanium/00.webp",
+      "img/phones/apple-iphone-15-pro/bluetitanium/01.webp",
+      "img/phones/apple-iphone-15-pro/bluetitanium/02.webp",
+      "img/phones/apple-iphone-15-pro/bluetitanium/03.webp",
+      "img/phones/apple-iphone-15-pro/0Pro.webp"
+    ],
+    "description": [
+      {
+        "title": "Forged in titanium",
+        "text": [
+          "iPhone 15 Pro is the first iPhone to feature an aerospace‑grade titanium design, using the same alloy that spacecraft use for missions to Mars.",
+          "Titanium has one of the best strength‑to‑weight ratios of any metal, making these our lightest Pro models ever. You’ll notice the difference the moment you pick one up."
+        ]
+      },
+      {
+        "title": "A17 Pro chip. A monster win for gaming",
+        "text": [
+          "It’s here. The biggest redesign in the history of Apple GPUs.",
+          "A17 Pro is an entirely new class of iPhone chip that delivers our best graphics performance by far.",
+          "Mobile games will look and feel so immersive, with incredibly detailed environments and more realistic characters. And with industry-leading speed and efficiency, A17 Pro takes fast and runs with it."
+        ]
+      },
+      {
+        "title": "A camera that captures your wildest imagination",
+        "text": [
+          "From dramatic framing flexibility to next-generation portraits, see what you can do with our most powerful iPhone camera system.",
+          "With iPhone 15 Pro, you have multiple focal lengths to work with. It’s like having seven pro lenses in your pocket, everywhere you go.",
+          "The 48MP Main camera is more advanced than ever, capturing super‑high‑resolution photos with a new level of detail and color.",
+          "You’ll see the improvements in your portraits. And now you no longer have to switch to Portrait mode. If your subject is a person, dog, or cat, iPhone automatically captures depth information. So you can choose to instantly see your photo as a portrait, with an artful blur effect. Or later in the Photos app."
+        ]
+      }
+    ],
+    "screen": "6.1' OLED (Super Retina XDR)",
+    "resolution": "2556x1179",
+    "processor": "Apple A17 Pro",
+    "ram": "8GB",
+    "camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto",
+    "zoom": "Digital up to 15x, Optical up to 10x",
+    "cell": ["GSM", "EDGE", "UMTS", "HSPA", "LTE", "5G"]
+  },
+    {
+    "id": "apple-iphone-15-pro-256gb-bluetitanium",
+    "namespaceId": "apple-iphone-15-pro",
+    "name": "Apple iPhone 15 Pro 256GB Natural Titanium",
+    "capacityAvailable": ["128GB", "256GB", "512GB", "1TB"],
+    "capacity": "256GB",
+    "priceRegular": 1400,
+    "priceDiscount": 1200,
+    "colorsAvailable": ["naturaltitanium", "bluetitanium", "whitetitanium", "blacktitanium"],
+    "color": "bluetitanium",
+    "images": [
+      "img/phones/apple-iphone-15-pro/bluetitanium/00.webp",
+      "img/phones/apple-iphone-15-pro/bluetitanium/01.webp",
+      "img/phones/apple-iphone-15-pro/bluetitanium/02.webp",
+      "img/phones/apple-iphone-15-pro/bluetitanium/03.webp",
+      "img/phones/apple-iphone-15-pro/0Pro.webp"
+    ],
+    "description": [
+      {
+        "title": "Forged in titanium",
+        "text": [
+          "iPhone 15 Pro is the first iPhone to feature an aerospace‑grade titanium design, using the same alloy that spacecraft use for missions to Mars.",
+          "Titanium has one of the best strength‑to‑weight ratios of any metal, making these our lightest Pro models ever. You’ll notice the difference the moment you pick one up."
+        ]
+      },
+      {
+        "title": "A17 Pro chip. A monster win for gaming",
+        "text": [
+          "It’s here. The biggest redesign in the history of Apple GPUs.",
+          "A17 Pro is an entirely new class of iPhone chip that delivers our best graphics performance by far.",
+          "Mobile games will look and feel so immersive, with incredibly detailed environments and more realistic characters. And with industry-leading speed and efficiency, A17 Pro takes fast and runs with it."
+        ]
+      },
+      {
+        "title": "A camera that captures your wildest imagination",
+        "text": [
+          "From dramatic framing flexibility to next-generation portraits, see what you can do with our most powerful iPhone camera system.",
+          "With iPhone 15 Pro, you have multiple focal lengths to work with. It’s like having seven pro lenses in your pocket, everywhere you go.",
+          "The 48MP Main camera is more advanced than ever, capturing super‑high‑resolution photos with a new level of detail and color.",
+          "You’ll see the improvements in your portraits. And now you no longer have to switch to Portrait mode. If your subject is a person, dog, or cat, iPhone automatically captures depth information. So you can choose to instantly see your photo as a portrait, with an artful blur effect. Or later in the Photos app."
+        ]
+      }
+    ],
+    "screen": "6.1' OLED (Super Retina XDR)",
+    "resolution": "2556x1179",
+    "processor": "Apple A17 Pro",
+    "ram": "8GB",
+    "camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto",
+    "zoom": "Digital up to 15x, Optical up to 10x",
+    "cell": ["GSM", "EDGE", "UMTS", "HSPA", "LTE", "5G"]
+  },
+    {
+    "id": "apple-iphone-15-pro-512gb-bluetitanium",
+    "namespaceId": "apple-iphone-15-pro",
+    "name": "Apple iPhone 15 Pro 512GB Natural Titanium",
+    "capacityAvailable": ["128GB", "256GB", "512GB", "1TB"],
+    "capacity": "512GB",
+    "priceRegular": 1600,
+    "priceDiscount": 1400,
+    "colorsAvailable": ["naturaltitanium", "bluetitanium", "whitetitanium", "blacktitanium"],
+    "color": "bluetitanium",
+    "images": [
+      "img/phones/apple-iphone-15-pro/bluetitanium/00.webp",
+      "img/phones/apple-iphone-15-pro/bluetitanium/01.webp",
+      "img/phones/apple-iphone-15-pro/bluetitanium/02.webp",
+      "img/phones/apple-iphone-15-pro/bluetitanium/03.webp",
+      "img/phones/apple-iphone-15-pro/0Pro.webp"
+    ],
+    "description": [
+      {
+        "title": "Forged in titanium",
+        "text": [
+          "iPhone 15 Pro is the first iPhone to feature an aerospace‑grade titanium design, using the same alloy that spacecraft use for missions to Mars.",
+          "Titanium has one of the best strength‑to‑weight ratios of any metal, making these our lightest Pro models ever. You’ll notice the difference the moment you pick one up."
+        ]
+      },
+      {
+        "title": "A17 Pro chip. A monster win for gaming",
+        "text": [
+          "It’s here. The biggest redesign in the history of Apple GPUs.",
+          "A17 Pro is an entirely new class of iPhone chip that delivers our best graphics performance by far.",
+          "Mobile games will look and feel so immersive, with incredibly detailed environments and more realistic characters. And with industry-leading speed and efficiency, A17 Pro takes fast and runs with it."
+        ]
+      },
+      {
+        "title": "A camera that captures your wildest imagination",
+        "text": [
+          "From dramatic framing flexibility to next-generation portraits, see what you can do with our most powerful iPhone camera system.",
+          "With iPhone 15 Pro, you have multiple focal lengths to work with. It’s like having seven pro lenses in your pocket, everywhere you go.",
+          "The 48MP Main camera is more advanced than ever, capturing super‑high‑resolution photos with a new level of detail and color.",
+          "You’ll see the improvements in your portraits. And now you no longer have to switch to Portrait mode. If your subject is a person, dog, or cat, iPhone automatically captures depth information. So you can choose to instantly see your photo as a portrait, with an artful blur effect. Or later in the Photos app."
+        ]
+      }
+    ],
+    "screen": "6.1' OLED (Super Retina XDR)",
+    "resolution": "2556x1179",
+    "processor": "Apple A17 Pro",
+    "ram": "8GB",
+    "camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto",
+    "zoom": "Digital up to 15x, Optical up to 10x",
+    "cell": ["GSM", "EDGE", "UMTS", "HSPA", "LTE", "5G"]
+  },
+    {
+    "id": "apple-iphone-15-pro-1tb-bluetitanium",
+    "namespaceId": "apple-iphone-15-pro",
+    "name": "Apple iPhone 15 Pro 1TB Natural Titanium",
+    "capacityAvailable": ["128GB", "256GB", "512GB", "1TB"],
+    "capacity": "1TB",
+    "priceRegular": 1800,
+    "priceDiscount": 1600,
+    "colorsAvailable": ["naturaltitanium", "bluetitanium", "whitetitanium", "blacktitanium"],
+    "color": "bluetitanium",
+    "images": [
+      "img/phones/apple-iphone-15-pro/bluetitanium/00.webp",
+      "img/phones/apple-iphone-15-pro/bluetitanium/01.webp",
+      "img/phones/apple-iphone-15-pro/bluetitanium/02.webp",
+      "img/phones/apple-iphone-15-pro/bluetitanium/03.webp",
+      "img/phones/apple-iphone-15-pro/0Pro.webp"
+    ],
+    "description": [
+      {
+        "title": "Forged in titanium",
+        "text": [
+          "iPhone 15 Pro is the first iPhone to feature an aerospace‑grade titanium design, using the same alloy that spacecraft use for missions to Mars.",
+          "Titanium has one of the best strength‑to‑weight ratios of any metal, making these our lightest Pro models ever. You’ll notice the difference the moment you pick one up."
+        ]
+      },
+      {
+        "title": "A17 Pro chip. A monster win for gaming",
+        "text": [
+          "It’s here. The biggest redesign in the history of Apple GPUs.",
+          "A17 Pro is an entirely new class of iPhone chip that delivers our best graphics performance by far.",
+          "Mobile games will look and feel so immersive, with incredibly detailed environments and more realistic characters. And with industry-leading speed and efficiency, A17 Pro takes fast and runs with it."
+        ]
+      },
+      {
+        "title": "A camera that captures your wildest imagination",
+        "text": [
+          "From dramatic framing flexibility to next-generation portraits, see what you can do with our most powerful iPhone camera system.",
+          "With iPhone 15 Pro, you have multiple focal lengths to work with. It’s like having seven pro lenses in your pocket, everywhere you go.",
+          "The 48MP Main camera is more advanced than ever, capturing super‑high‑resolution photos with a new level of detail and color.",
+          "You’ll see the improvements in your portraits. And now you no longer have to switch to Portrait mode. If your subject is a person, dog, or cat, iPhone automatically captures depth information. So you can choose to instantly see your photo as a portrait, with an artful blur effect. Or later in the Photos app."
+        ]
+      }
+    ],
+    "screen": "6.1' OLED (Super Retina XDR)",
+    "resolution": "2556x1179",
+    "processor": "Apple A17 Pro",
+    "ram": "8GB",
+    "camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto",
+    "zoom": "Digital up to 15x, Optical up to 10x",
+    "cell": ["GSM", "EDGE", "UMTS", "HSPA", "LTE", "5G"]
+  },
+    {
+    "id": "apple-iphone-15-pro-128gb-whitetitanium",
+    "namespaceId": "apple-iphone-15-pro",
+    "name": "Apple iPhone 15 Pro 128GB Natural Titanium",
+    "capacityAvailable": ["128GB", "256GB", "512GB", "1TB"],
+    "capacity": "128GB",
+    "priceRegular": 1300,
+    "priceDiscount": 1100,
+    "colorsAvailable": ["naturaltitanium", "bluetitanium", "whitetitanium", "blacktitanium"],
+    "color": "whitetitanium",
+    "images": [
+      "img/phones/apple-iphone-15-pro/whitetitanium/00.webp",
+      "img/phones/apple-iphone-15-pro/whitetitanium/01.webp",
+      "img/phones/apple-iphone-15-pro/whitetitanium/02.webp",
+      "img/phones/apple-iphone-15-pro/whitetitanium/03.webp",
+      "img/phones/apple-iphone-15-pro/0Pro.webp"
+    ],
+    "description": [
+      {
+        "title": "Forged in titanium",
+        "text": [
+          "iPhone 15 Pro is the first iPhone to feature an aerospace‑grade titanium design, using the same alloy that spacecraft use for missions to Mars.",
+          "Titanium has one of the best strength‑to‑weight ratios of any metal, making these our lightest Pro models ever. You’ll notice the difference the moment you pick one up."
+        ]
+      },
+      {
+        "title": "A17 Pro chip. A monster win for gaming",
+        "text": [
+          "It’s here. The biggest redesign in the history of Apple GPUs.",
+          "A17 Pro is an entirely new class of iPhone chip that delivers our best graphics performance by far.",
+          "Mobile games will look and feel so immersive, with incredibly detailed environments and more realistic characters. And with industry-leading speed and efficiency, A17 Pro takes fast and runs with it."
+        ]
+      },
+      {
+        "title": "A camera that captures your wildest imagination",
+        "text": [
+          "From dramatic framing flexibility to next-generation portraits, see what you can do with our most powerful iPhone camera system.",
+          "With iPhone 15 Pro, you have multiple focal lengths to work with. It’s like having seven pro lenses in your pocket, everywhere you go.",
+          "The 48MP Main camera is more advanced than ever, capturing super‑high‑resolution photos with a new level of detail and color.",
+          "You’ll see the improvements in your portraits. And now you no longer have to switch to Portrait mode. If your subject is a person, dog, or cat, iPhone automatically captures depth information. So you can choose to instantly see your photo as a portrait, with an artful blur effect. Or later in the Photos app."
+        ]
+      }
+    ],
+    "screen": "6.1' OLED (Super Retina XDR)",
+    "resolution": "2556x1179",
+    "processor": "Apple A17 Pro",
+    "ram": "8GB",
+    "camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto",
+    "zoom": "Digital up to 15x, Optical up to 10x",
+    "cell": ["GSM", "EDGE", "UMTS", "HSPA", "LTE", "5G"]
+  },
+    {
+    "id": "apple-iphone-15-pro-256gb-whitetitanium",
+    "namespaceId": "apple-iphone-15-pro",
+    "name": "Apple iPhone 15 Pro 256GB Natural Titanium",
+    "capacityAvailable": ["128GB", "256GB", "512GB", "1TB"],
+    "capacity": "256GB",
+    "priceRegular": 1400,
+    "priceDiscount": 1200,
+    "colorsAvailable": ["naturaltitanium", "bluetitanium", "whitetitanium", "blacktitanium"],
+    "color": "whitetitanium",
+    "images": [
+      "img/phones/apple-iphone-15-pro/whitetitanium/00.webp",
+      "img/phones/apple-iphone-15-pro/whitetitanium/01.webp",
+      "img/phones/apple-iphone-15-pro/whitetitanium/02.webp",
+      "img/phones/apple-iphone-15-pro/whitetitanium/03.webp",
+      "img/phones/apple-iphone-15-pro/0Pro.webp"
+    ],
+    "description": [
+      {
+        "title": "Forged in titanium",
+        "text": [
+          "iPhone 15 Pro is the first iPhone to feature an aerospace‑grade titanium design, using the same alloy that spacecraft use for missions to Mars.",
+          "Titanium has one of the best strength‑to‑weight ratios of any metal, making these our lightest Pro models ever. You’ll notice the difference the moment you pick one up."
+        ]
+      },
+      {
+        "title": "A17 Pro chip. A monster win for gaming",
+        "text": [
+          "It’s here. The biggest redesign in the history of Apple GPUs.",
+          "A17 Pro is an entirely new class of iPhone chip that delivers our best graphics performance by far.",
+          "Mobile games will look and feel so immersive, with incredibly detailed environments and more realistic characters. And with industry-leading speed and efficiency, A17 Pro takes fast and runs with it."
+        ]
+      },
+      {
+        "title": "A camera that captures your wildest imagination",
+        "text": [
+          "From dramatic framing flexibility to next-generation portraits, see what you can do with our most powerful iPhone camera system.",
+          "With iPhone 15 Pro, you have multiple focal lengths to work with. It’s like having seven pro lenses in your pocket, everywhere you go.",
+          "The 48MP Main camera is more advanced than ever, capturing super‑high‑resolution photos with a new level of detail and color.",
+          "You’ll see the improvements in your portraits. And now you no longer have to switch to Portrait mode. If your subject is a person, dog, or cat, iPhone automatically captures depth information. So you can choose to instantly see your photo as a portrait, with an artful blur effect. Or later in the Photos app."
+        ]
+      }
+    ],
+    "screen": "6.1' OLED (Super Retina XDR)",
+    "resolution": "2556x1179",
+    "processor": "Apple A17 Pro",
+    "ram": "8GB",
+    "camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto",
+    "zoom": "Digital up to 15x, Optical up to 10x",
+    "cell": ["GSM", "EDGE", "UMTS", "HSPA", "LTE", "5G"]
+  },
+    {
+    "id": "apple-iphone-15-pro-512gb-whitetitanium",
+    "namespaceId": "apple-iphone-15-pro",
+    "name": "Apple iPhone 15 Pro 512GB Natural Titanium",
+    "capacityAvailable": ["128GB", "256GB", "512GB", "1TB"],
+    "capacity": "512GB",
+    "priceRegular": 1600,
+    "priceDiscount": 1400,
+    "colorsAvailable": ["naturaltitanium", "bluetitanium", "whitetitanium", "blacktitanium"],
+    "color": "whitetitanium",
+    "images": [
+      "img/phones/apple-iphone-15-pro/whitetitanium/00.webp",
+      "img/phones/apple-iphone-15-pro/whitetitanium/01.webp",
+      "img/phones/apple-iphone-15-pro/whitetitanium/02.webp",
+      "img/phones/apple-iphone-15-pro/whitetitanium/03.webp",
+      "img/phones/apple-iphone-15-pro/0Pro.webp"
+    ],
+    "description": [
+      {
+        "title": "Forged in titanium",
+        "text": [
+          "iPhone 15 Pro is the first iPhone to feature an aerospace‑grade titanium design, using the same alloy that spacecraft use for missions to Mars.",
+          "Titanium has one of the best strength‑to‑weight ratios of any metal, making these our lightest Pro models ever. You’ll notice the difference the moment you pick one up."
+        ]
+      },
+      {
+        "title": "A17 Pro chip. A monster win for gaming",
+        "text": [
+          "It’s here. The biggest redesign in the history of Apple GPUs.",
+          "A17 Pro is an entirely new class of iPhone chip that delivers our best graphics performance by far.",
+          "Mobile games will look and feel so immersive, with incredibly detailed environments and more realistic characters. And with industry-leading speed and efficiency, A17 Pro takes fast and runs with it."
+        ]
+      },
+      {
+        "title": "A camera that captures your wildest imagination",
+        "text": [
+          "From dramatic framing flexibility to next-generation portraits, see what you can do with our most powerful iPhone camera system.",
+          "With iPhone 15 Pro, you have multiple focal lengths to work with. It’s like having seven pro lenses in your pocket, everywhere you go.",
+          "The 48MP Main camera is more advanced than ever, capturing super‑high‑resolution photos with a new level of detail and color.",
+          "You’ll see the improvements in your portraits. And now you no longer have to switch to Portrait mode. If your subject is a person, dog, or cat, iPhone automatically captures depth information. So you can choose to instantly see your photo as a portrait, with an artful blur effect. Or later in the Photos app."
+        ]
+      }
+    ],
+    "screen": "6.1' OLED (Super Retina XDR)",
+    "resolution": "2556x1179",
+    "processor": "Apple A17 Pro",
+    "ram": "8GB",
+    "camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto",
+    "zoom": "Digital up to 15x, Optical up to 10x",
+    "cell": ["GSM", "EDGE", "UMTS", "HSPA", "LTE", "5G"]
+  },
+    {
+    "id": "apple-iphone-15-pro-1tb-whitetitanium",
+    "namespaceId": "apple-iphone-15-pro",
+    "name": "Apple iPhone 15 Pro 1TB Natural Titanium",
+    "capacityAvailable": ["128GB", "256GB", "512GB", "1TB"],
+    "capacity": "1TB",
+    "priceRegular": 1800,
+    "priceDiscount": 1600,
+    "colorsAvailable": ["naturaltitanium", "bluetitanium", "whitetitanium", "blacktitanium"],
+    "color": "whitetitanium",
+    "images": [
+      "img/phones/apple-iphone-15-pro/whitetitanium/00.webp",
+      "img/phones/apple-iphone-15-pro/whitetitanium/01.webp",
+      "img/phones/apple-iphone-15-pro/whitetitanium/02.webp",
+      "img/phones/apple-iphone-15-pro/whitetitanium/03.webp",
+      "img/phones/apple-iphone-15-pro/0Pro.webp"
+    ],
+    "description": [
+      {
+        "title": "Forged in titanium",
+        "text": [
+          "iPhone 15 Pro is the first iPhone to feature an aerospace‑grade titanium design, using the same alloy that spacecraft use for missions to Mars.",
+          "Titanium has one of the best strength‑to‑weight ratios of any metal, making these our lightest Pro models ever. You’ll notice the difference the moment you pick one up."
+        ]
+      },
+      {
+        "title": "A17 Pro chip. A monster win for gaming",
+        "text": [
+          "It’s here. The biggest redesign in the history of Apple GPUs.",
+          "A17 Pro is an entirely new class of iPhone chip that delivers our best graphics performance by far.",
+          "Mobile games will look and feel so immersive, with incredibly detailed environments and more realistic characters. And with industry-leading speed and efficiency, A17 Pro takes fast and runs with it."
+        ]
+      },
+      {
+        "title": "A camera that captures your wildest imagination",
+        "text": [
+          "From dramatic framing flexibility to next-generation portraits, see what you can do with our most powerful iPhone camera system.",
+          "With iPhone 15 Pro, you have multiple focal lengths to work with. It’s like having seven pro lenses in your pocket, everywhere you go.",
+          "The 48MP Main camera is more advanced than ever, capturing super‑high‑resolution photos with a new level of detail and color.",
+          "You’ll see the improvements in your portraits. And now you no longer have to switch to Portrait mode. If your subject is a person, dog, or cat, iPhone automatically captures depth information. So you can choose to instantly see your photo as a portrait, with an artful blur effect. Or later in the Photos app."
+        ]
+      }
+    ],
+    "screen": "6.1' OLED (Super Retina XDR)",
+    "resolution": "2556x1179",
+    "processor": "Apple A17 Pro",
+    "ram": "8GB",
+    "camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto",
+    "zoom": "Digital up to 15x, Optical up to 10x",
+    "cell": ["GSM", "EDGE", "UMTS", "HSPA", "LTE", "5G"]
   }
 ]
