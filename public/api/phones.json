@@ -6132,7 +6132,7 @@
     {
     "id": "apple-iphone-15-pro-128gb-bluetitanium",
     "namespaceId": "apple-iphone-15-pro",
-    "name": "Apple iPhone 15 Pro 128GB Natural Titanium",
+    "name": "Apple iPhone 15 Pro 128GB Blue Titanium",
     "capacityAvailable": ["128GB", "256GB", "512GB", "1TB"],
     "capacity": "128GB",
     "priceRegular": 1300,
@@ -6183,7 +6183,7 @@
     {
     "id": "apple-iphone-15-pro-256gb-bluetitanium",
     "namespaceId": "apple-iphone-15-pro",
-    "name": "Apple iPhone 15 Pro 256GB Natural Titanium",
+    "name": "Apple iPhone 15 Pro 256GB Blue Titanium",
     "capacityAvailable": ["128GB", "256GB", "512GB", "1TB"],
     "capacity": "256GB",
     "priceRegular": 1400,
@@ -6234,7 +6234,7 @@
     {
     "id": "apple-iphone-15-pro-512gb-bluetitanium",
     "namespaceId": "apple-iphone-15-pro",
-    "name": "Apple iPhone 15 Pro 512GB Natural Titanium",
+    "name": "Apple iPhone 15 Pro 512GB Blue Titanium",
     "capacityAvailable": ["128GB", "256GB", "512GB", "1TB"],
     "capacity": "512GB",
     "priceRegular": 1600,
@@ -6285,7 +6285,7 @@
     {
     "id": "apple-iphone-15-pro-1tb-bluetitanium",
     "namespaceId": "apple-iphone-15-pro",
-    "name": "Apple iPhone 15 Pro 1TB Natural Titanium",
+    "name": "Apple iPhone 15 Pro 1TB Blue Titanium",
     "capacityAvailable": ["128GB", "256GB", "512GB", "1TB"],
     "capacity": "1TB",
     "priceRegular": 1800,
@@ -6336,7 +6336,7 @@
     {
     "id": "apple-iphone-15-pro-128gb-whitetitanium",
     "namespaceId": "apple-iphone-15-pro",
-    "name": "Apple iPhone 15 Pro 128GB Natural Titanium",
+    "name": "Apple iPhone 15 Pro 128GB White Titanium",
     "capacityAvailable": ["128GB", "256GB", "512GB", "1TB"],
     "capacity": "128GB",
     "priceRegular": 1300,
@@ -6387,7 +6387,7 @@
     {
     "id": "apple-iphone-15-pro-256gb-whitetitanium",
     "namespaceId": "apple-iphone-15-pro",
-    "name": "Apple iPhone 15 Pro 256GB Natural Titanium",
+    "name": "Apple iPhone 15 Pro 256GB White Titanium",
     "capacityAvailable": ["128GB", "256GB", "512GB", "1TB"],
     "capacity": "256GB",
     "priceRegular": 1400,
@@ -6438,7 +6438,7 @@
     {
     "id": "apple-iphone-15-pro-512gb-whitetitanium",
     "namespaceId": "apple-iphone-15-pro",
-    "name": "Apple iPhone 15 Pro 512GB Natural Titanium",
+    "name": "Apple iPhone 15 Pro 512GB White Titanium",
     "capacityAvailable": ["128GB", "256GB", "512GB", "1TB"],
     "capacity": "512GB",
     "priceRegular": 1600,
@@ -6489,7 +6489,7 @@
     {
     "id": "apple-iphone-15-pro-1tb-whitetitanium",
     "namespaceId": "apple-iphone-15-pro",
-    "name": "Apple iPhone 15 Pro 1TB Natural Titanium",
+    "name": "Apple iPhone 15 Pro 1TB White Titanium",
     "capacityAvailable": ["128GB", "256GB", "512GB", "1TB"],
     "capacity": "1TB",
     "priceRegular": 1800,
@@ -6852,7 +6852,7 @@
     {
     "id": "apple-iphone-15-pro-max-256gb-bluetitanium",
     "namespaceId": "apple-iphone-15-pro-max",
-    "name": "Apple iPhone 15 Pro Max 256GB Natural Titanium",
+    "name": "Apple iPhone 15 Pro Max 256GB Blue Titanium",
     "capacityAvailable": ["256GB", "512GB", "1TB"],
     "capacity": "256GB",
     "priceRegular": 1500,
@@ -6903,7 +6903,7 @@
     {
     "id": "apple-iphone-15-pro-max-512gb-bluetitanium",
     "namespaceId": "apple-iphone-15-pro-max",
-    "name": "Apple iPhone 15 Pro Max 512GB Natural Titanium",
+    "name": "Apple iPhone 15 Pro Max 512GB Blue Titanium",
     "capacityAvailable": ["256GB", "512GB", "1TB"],
     "capacity": "512GB",
     "priceRegular": 1700,
@@ -6954,7 +6954,7 @@
     {
     "id": "apple-iphone-15-pro-max-1tb-bluetitanium",
     "namespaceId": "apple-iphone-15-pro-max",
-    "name": "Apple iPhone 15 Pro Max 1TB Natural Titanium",
+    "name": "Apple iPhone 15 Pro Max 1TB Blue Titanium",
     "capacityAvailable": ["256GB", "512GB", "1TB"],
     "capacity": "1TB",
     "priceRegular": 1900,
@@ -7005,7 +7005,7 @@
     {
     "id": "apple-iphone-15-pro-max-256gb-whitetitanium",
     "namespaceId": "apple-iphone-15-pro-max",
-    "name": "Apple iPhone 15 Pro Max 256GB Natural Titanium",
+    "name": "Apple iPhone 15 Pro Max 256GB White Titanium",
     "capacityAvailable": ["256GB", "512GB", "1TB"],
     "capacity": "256GB",
     "priceRegular": 1400,
@@ -7056,7 +7056,7 @@
     {
     "id": "apple-iphone-15-pro-max-512gb-whitetitanium",
     "namespaceId": "apple-iphone-15-pro-max",
-    "name": "Apple iPhone 15 Pro Max 512GB Natural Titanium",
+    "name": "Apple iPhone 15 Pro Max 512GB White Titanium",
     "capacityAvailable": ["256GB", "512GB", "1TB"],
     "capacity": "512GB",
     "priceRegular": 1700,
@@ -7107,7 +7107,7 @@
     {
     "id": "apple-iphone-15-pro-max-1tb-whitetitanium",
     "namespaceId": "apple-iphone-15-pro-max",
-    "name": "Apple iPhone 15 Pro Max 1TB Natural Titanium",
+    "name": "Apple iPhone 15 Pro Max 1TB White Titanium",
     "capacityAvailable": ["256GB", "512GB", "1TB"],
     "capacity": "1TB",
     "priceRegular": 1900,

@@ -2886,16 +2886,16 @@
   {
     "id": 207,
     "category": "phones",
-    "itemId": "apple-iphone-15-pro-128gb-whiteanium",
+    "itemId": "apple-iphone-15-pro-128gb-whitetitanium",
     "name": "Apple iPhone 15 Pro 128GB White Titanium",
     "fullPrice": 1300,
     "price": 1100,
     "screen": "6.1' OLED",
     "capacity": "128GB",
-    "color": "whiteanium",
+    "color": "whitetitanium",
     "ram": "8GB",
     "year": 2023,
-    "image": "img/phones/apple-iphone-15-pro/whiteanium/00.webp"
+    "image": "img/phones/apple-iphone-15-pro/whitetitanium/00.webp"
   },
   {
     "id": 208,
